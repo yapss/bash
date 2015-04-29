@@ -1,6 +1,6 @@
 ## Super Simple stress testing -- leave this in a screen on a couple boxes and come back in a couple hours
 
-n="0"; while [ $n -lt 69696969696969 ]; do curl http://catadm.in/blog >> /dev/null 2>&1 && echo "touched inappropriately ${n} times" && n=$[$n+1]; done
+n="0"; while [ $n -lt 69696969696969 ]; do curl <domain> >> /dev/null 2>&1 && echo "touched inappropriately ${n} times" && n=$[$n+1]; done
 
 ## Strace a running process (this one is php but you can replace that with whatever you're looking for)
 
