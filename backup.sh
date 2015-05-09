@@ -22,6 +22,7 @@ else
 fi
 
 # Backup the thing
+# Produce an md5sum hash for integrity checks
 
 if $check1
 then
